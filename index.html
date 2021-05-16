@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Technogenr</title>
+  </head>
+  <body>
+    <!-- -------------------------------------------heading -------------------------------------------------------------  -->
+    <div class="container">
+      <section class="main flex-column">
+        <h1 class="main-title">
+          <span class="main-title-1">techno</span
+          ><span class="main-title-2">genr</span>
+        </h1>
+        <p class="main-sub-heading">APPLICATION FOR ADMISSION (20 - )</p>
+        <form class="inline-form flex-row">
+          <div class="inline-form-element flex-row">
+            <p>Course:</p>
+            <input type="text" />
+          </div>
+          <div class="inline-form-element flex-row">
+            <p>Branch:</p>
+            <input type="text" />
+          </div>
+          <div class="inline-form-element flex-row">
+            <p>Category:</p>
+            <input type="text" />
+          </div>
+        </form>
+      </section>
+      <form action="">
+        <p class="flex-column">
+          (please fill all Information in Capital letter)
+        </p>
+        <!-- -------------------------------------Student Personal Details---------------------------------------------------------------------- -->
+        <fieldset class="student-details fieldset">
+          <legend class="heading">Students Personal Details</legend>
+          <div class="inline-form-student flex-row">
+            <div class="flex-row student-details-name">
+              <label for="first-name">First Name:</label>
+              <input
+                class="custom-textbox"
+                type="text"
+                name="first name"
+                id="first name"
+              />
+            </div>
+            <div class="flex-row student-details-name">
+              <label for="first-name">Middle Name:</label>
+              <input
+                class="custom-textbox"
+                type="text"
+                name="middle name"
+                id="middle name"
+              />
+            </div>
+            <div class="flex-row student-details-name">
+              <label for="last-name">Last Name:</label>
+              <input
+                class="custom-textbox"
+                type="text"
+                name="last name"
+                id="last-name"
+              />
+            </div>
+          </div>
+          <div class="just-flex">
+            <div class="left-form">
+              <div class="flex-row">
+                <label for="aadhar-number"> Aadhar Number:</label>
+                <input
+                  class="custom-textbox"
+                  type="text"
+                  name="aadhar numbetr"
+                  id="aadhar number"
+                />
+              </div>
+              <div>
+                <label for="date-of-birth">Date of Birth:</label>
+                <input
+                  class="dob"
+                  type="date"
+                  name="date-of-birth"
+                  id="date-of-birth"
+                />
+              </div>
+
+              <div class="flex-row">
+                <div class="common-form-column flex-row">
+                  <p>Mobile No:</p>
+                  <input class="custom-textbox" type="number" />
+                </div>
+                <div class="common-form-column flex-row">
+                  <p>WhatsApp No:</p>
+                  <input class="custom-textbox" type="number" />
+                </div>
+              </div>
+              <div class="flex-row">
+                <label for="email-id"> Email Id:</label>
+                <input
+                  class="custom-textbox"
+                  type="email"
+                  name="email-id"
+                  id="email-id"
+                />
+              </div>
+
+              <div class="flex-row justify-space-between">
+                <p>Admission Category:</p>
+                <div>
+                  <label for="ch1">General</label>
+                  <input
+                    id="ch1"
+                    type="checkbox"
+                    name="general"
+                    value="general"
+                  />
+                </div>
+                <div>
+                  <label for="ch2">SC</label>
+                  <input id="ch2" type="checkbox" name="sc" value="sc" />
+                </div>
+                <div>
+                  <label for="ch3">ST</label>
+                  <input id="ch3" type="checkbox" name="st" value="st" />
+                </div>
+                <div>
+                  <label for="ch4">OBC</label>
+                  <input id="ch4" type="checkbox" name="obc" value="obc" />
+                </div>
+                <div>
+                  <label for="ch5">SEBC</label>
+                  <input id="ch5" type="checkbox" name="sebc" value="sebc" />
+                </div>
+              </div>
+
+              <div class="flex-row justify-flex-start">
+                <p class="margin-right-20px">Gender:</p>
+                <div class="margin-right-20px">
+                  <label for="g1">Male</label>
+                  <input
+                    id="g1"
+                    type="checkbox"
+                    name="general"
+                    value="general"
+                  />
+                </div>
+                <div>
+                  <label for="g2">Female</label>
+                  <input id="g2" type="checkbox" name="sc" value="sc" />
+                </div>
+              </div>
+              <div class="flex-row">
+                <div class="common-form-column flex-row">
+                  <p>Mother Tongue:</p>
+                  <input class="custom-textbox" type="text" />
+                </div>
+                <div class="common-form-column flex-row">
+                  <p>Language Known:</p>
+                  <input class="custom-textbox" type="text" />
+                </div>
+              </div>
+
+              <div class="flex-row">
+                <div class="common-form-column flex-row">
+                  <p>Nationality</p>
+                  <input class="custom-textbox" type="text" />
+                </div>
+                <div class="common-form-column flex-row">
+                  <p>Religion:</p>
+                  <input class="custom-textbox" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class="flex-row photo-space">
+              <label for="photo-input">Paste your recent photo here</label>
+            </div>
+            <input type="file" class="photo-input" id="photo-input" />
+          </div>
+          <div>
+            <label for="Idenification-Marks"> Idenification-Marks:</label>
+            <input
+              class="custom-textbox"
+              type="text"
+              name="Idenification-Marks1"
+              id="Idenification-Marks1"
+            />
+            <input
+              class="custom-textbox"
+              type="text"
+              name="Idenification-Marks2"
+              id="Idenification-Marks2"
+            />
+          </div>
+          <div class="flex-row justify-flex-start">
+            <p class="margin-right-20px">Any Court Proceeding's:</p>
+            <div class="margin-right-20px">
+              <label for="Y1">Yes</label>
+              <input id="Y1" type="checkbox" name="general" value="general" />
+            </div>
+            <div>
+              <label for="N2">No</label>
+              <input id="N2" type="checkbox" name="sc" value="sc" />
+            </div>
+          </div>
+        </fieldset>
+
+        <!------------------------ Parent Details---------------------------------------------- -->
+
+        <fieldset class="student-details fieldset">
+          <legend class="heading">Parents Details</legend>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Father's Name:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>Email:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Mobile No:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>WhatsApp No:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Occupation:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>Annual Income:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Mother's Name:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>Email Id:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Mobile No:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>WhatsApp No:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Occupation:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>Annual Income:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+        </fieldset>
+        <!-- ------------------------Emergency Contact--------------------------------------------- -->
+
+        <fieldset class="student-details fieldset">
+          <legend class="heading">Emergency Contact</legend>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Person Name:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>Relation:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Contact Number:</p>
+              <input class="custom-textbox" type="number" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>WhatsApp No:</p>
+              <input class="custom-textbox" type="number" />
+            </div>
+          </div>
+          <div class="common-form-column flex-row">
+            <p>Email Id:</p>
+            <input class="custom-textbox" type="email" />
+          </div>
+          <div class="common-form-column flex-row">
+            <p>Address:</p>
+            <input class="custom-textbox" type="text" />
+          </div>
+          <div class="flex-row">
+            <div class="common-form-column flex-row">
+              <p>Occupation:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+            <div class="common-form-column flex-row">
+              <p>Other Details if any:</p>
+              <input class="custom-textbox" type="text" />
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <div class="flex-row">
+        <a href="form2.html">
+          <button class="next-button">Next Page</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
